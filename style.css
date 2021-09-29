@@ -1,3 +1,7 @@
+h3{
+    text-align: center;
+    color: aqua;
+}
 .container {
     display: flex;
     justify-content: center;
