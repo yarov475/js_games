@@ -6,8 +6,20 @@ document.addEventListener('DOMContentLoaded', ()=>{
             img: 'images/elephant.png'
         },
         {
+            name: 'elephant',
+            img: 'images/elephant.png'
+        },
+        {
             name: 'face',
             img: 'images/face.png'
+        },
+        {
+            name: 'face',
+            img: 'images/face.png'
+        },
+        {
+            name: 'flower',
+            img: 'images/flower.png'
         },
         {
             name: 'flower',
@@ -18,8 +30,20 @@ document.addEventListener('DOMContentLoaded', ()=>{
             img: 'images/gate.png'
         },
         {
+            name: 'gate',
+            img: 'images/gate.png'
+        },
+        {
             name: 'moon',
             img: 'images/moon.png'
+        },
+        {
+            name: 'moon',
+            img: 'images/moon.png'
+        },
+        {
+            name: 'snow',
+            img: 'images/snow.png'
         },
         {
             name: 'snow',
@@ -63,7 +87,8 @@ function  createBoard(){
         cardsChosenID=[]
         resultDisplay.textContent= cardsWon.length
         if(cardsWon.length === cardArray.length/2){
-            resultDisplay.textContent='Win!'
+
+            document.write("<h1>Winner</h1>");
         }
     }
 
